@@ -6,8 +6,6 @@ Here's a test item that you need to do as the first step of the selection as Sof
 
 https://gist.github.com/xinuc/b34ef9fc1a078ee4b2a6 
 
-
-
 Berikut ini adalah sebuah implementasi struktur data Stack:
 
 import java.util.ArrayList;
@@ -49,6 +47,8 @@ public class Stack {
         return this.size;
     }
 }
+
+
 kita akan menggunakan struktur data Stack tersebut sebagai berikut:
 
 final Stack stack = new Stack(4);
@@ -65,6 +65,8 @@ for(int i = 0; i < 10000; i++) {
         }
     }).start();
 }
+
+
 di mana kita membuat 10000 thread untuk memanipulasi object Stack tersebut.
 
 stack.push boleh menghasilkan true (jika stack belum penuh) atau false (jika stack sudah penuh).
