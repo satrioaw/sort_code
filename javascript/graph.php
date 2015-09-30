@@ -1,8 +1,4 @@
-<!--Switcher untuk tampilkan anggaran murni dan perubahan-->
-<ul class="tabrow">
-    <li class="tabitem selected"><a href="#" data-toggle="tab">MURNI</a></li>
-    <li class="tabitem"><a href="" data-toggle="tab" onclick="asliperubahankldi(1)">PERUBAHAN</a></li>
-</ul> 
+
 
 <div style="text-align: center">
         <span style="font-size:12px;">Tahun Anggaran &nbsp;&nbsp;</span>
