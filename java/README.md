@@ -1,7 +1,16 @@
+Hi Mas Satrio, 
+
+I want to follow-up our application through our career page before. Thank you for your interest in this position anyway :)
+
+Here's a test item that you need to do as the first step of the selection as Software Engineer in Bukalapak: 
+
+https://gist.github.com/xinuc/b34ef9fc1a078ee4b2a6 
+
+
+
 Berikut ini adalah sebuah implementasi struktur data Stack:
 
 import java.util.ArrayList;
-
 public class Stack {
 
     private int size;
