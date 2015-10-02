@@ -13,7 +13,7 @@ Explaination of the code
 
 * File [Stack_sync_bycode][bycode] is a stack with synchronize function that position in the code that need to be synchronize.
  
-[test] : https://gist.github.com/xinuc/b34ef9fc1a078ee4b2a6
+[test]: https://gist.github.com/xinuc/b34ef9fc1a078ee4b2a6
 [Single]: https://github.com/satrioaw/sort_code/blob/master/java/thread_stack_implementation/SingleStack.java
 [race]: https://github.com/satrioaw/sort_code/blob/master/java/thread_stack_implementation/StackThread_Race_Condition.java
 [byfunction]: https://github.com/satrioaw/sort_code/blob/master/java/thread_stack_implementation/Stack_sync_byfunction.java
