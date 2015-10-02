@@ -1,0 +1,44 @@
+<html>
+	<head>
+	<script type="text/javascript" src="jquery-1.3.2.js"></script>
+	<script type="text/javascript" src="jqplot/jquery.jqplot.min.js"></script>
+	<script type="text/javascript" src="jqplot/jqplot.barRenderer.min.js"></script>
+	<script type="text/javascript" src="jqplot/jqplot.categoryAxisRenderer.min.js"></script>
+	<script type="text/javascript" src="jqplot.ClickableBars.js"></script>
+	<script type="text/javascript">
+	$(function(){
+		$.jqplot('Graph', [[25, 12.5, 6.25, 3.125]], {
+			title:'Example Clickable bars'
+			,seriesDefaults: {
+				renderer:$.jqplot.BarRenderer
+			}
+			,ClickableBars: {
+				onClick: function(i, j, data) {
+					alert("Series: " + i + ", Data item: " + j + ", Data: " + data);
+				}
+			}
+			, axes: {
+				xaxis: { renderer: $.jqplot.CategoryAxisRenderer },
+				yaxis: { min: 0 }
+			}
+		});
+	});
+	</script>
+</head>
+<body>
+	<div id="Graph" style="width: 800px; height: 400px;"></div>
+</body>
+</html>
+
+<!-- Additional plugins go here -->
+
+  <script class="include" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script class="include" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqPlot/1.0.8/jquery.jqplot.min.js"></script>
+  <script class="include" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqPlot/1.0.8/plugins/jqplot.barRenderer.min.js"></script>
+  <script class="include" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqPlot/1.0.8/plugins/jqplot.pieRenderer.min.js"></script>
+  <script class="include" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqPlot/1.0.8/plugins/jqplot.categoryAxisRenderer.min.js"></script>
+  <script class="include" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqPlot/1.0.8/plugins/jqplot.pointLabels.min.js"></script>
+
+<!-- End additional plugins -->
+
+<?php include "closer.html"; ?>

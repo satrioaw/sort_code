@@ -292,21 +292,18 @@
     
 </script>
 
-<link rel="stylesheet" media="all" type="text/css" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/dist/jquery.jqplot.css">
-<!--Switcher css-->
-<link rel="stylesheet" media="all" type="text/css" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/cssswitcher.css">
-	
-<script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/js/akunting.js"> </script>
-<script language="javascript" type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/dist/excanvas.js"></script>
-<script language="javascript" type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/dist/jquery.jqplot.min.js"></script>
+<link rel="stylesheet" media="all" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jqPlot/1.0.8/jquery.jqplot.min.css">
 
-<script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/dist/plugins/jqplot.barRenderer.js"></script>
-<script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/dist/plugins/jqplot.categoryAxisRenderer.js"></script>
-<script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/dist/plugins/jqplot.canvasAxisLabelRenderer.js"></script>
-<script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/dist/plugins/jqplot.canvasTextRenderer.js"></script>
-<script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/dist/plugins/jqplot.canvasAxisTickRenderer.js"></script>
-<script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/dist/plugins/jqplot.canvasOverlay.js"></script>
-<script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/dist/plugins/jqplot.highlighter.js"></script>
-<script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/dist/plugins/jqplot.cursor.js"></script>
-<script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/dist/plugins/jqplot.pointLabels.js"></script>
-<script type="text/javascript" src="<?php echo Yii::app()->baseUrl; ?>/public/js/wz_jsgraphics.js"></script>
+	
+<script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqPlot/1.0.8/excanvas.min.js"></script>
+<script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqPlot/1.0.8/jquery.jqplot.min.css"></script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqPlot/1.0.8/plugins/jqplot.barRenderer.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqPlot/1.0.8/plugins/jqplot.categoryAxisRenderer.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqPlot/1.0.8/plugins/jqplot.canvasAxisLabelRenderer.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqPlot/1.0.8/plugins/jqplot.canvasTextRenderer.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqPlot/1.0.8/plugins/jqplot.canvasAxisTickRenderer.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqPlot/1.0.8/plugins/jqplot.canvasOverlay.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqPlot/1.0.8/plugins/jqplot.highlighter.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqPlot/1.0.8/plugins/jqplot.cursor.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqPlot/1.0.8/plugins/jqplot.pointLabels.min.js"></script>
